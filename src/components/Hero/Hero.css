@@ -1,0 +1,61 @@
+.heroText{
+    font-weight: bold;
+    color: #161616;
+    line-height: 78px;
+
+}
+.hero{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 90vh;
+    padding:0 100px;
+    background-color: #e5d676;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper{
+   color: #161616;
+   font-size: 60px;
+   font-weight: bold;
+   color: #161616;
+
+}
+.cursor{
+    font-size: 62px;
+    font-weight: bold;
+    color: #F29B28;
+}
+.name{
+    font-size: 62px;
+    font-weight: bolder;
+    color: #161616;
+ 
+}
+.heroImage{
+    height: 100%;
+    object-fit: cover;
+    align-self: flex-end;
+    position: absolute;
+    z-index: 2;
+
+right: 0;
+z-index: 2;
+
+}
+.actions{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.hire{
+    margin-right: 20px;
+    background-color: #161616;
+
+}
+.hire:hover{
+    background-color: #3045a4;
+    opacity: 0.8;
+}

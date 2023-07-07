@@ -1,0 +1,46 @@
+span{
+    font-style: bold;
+    font-size: 22px;
+}
+.logo{
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #F29B28;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+z-index: 2;
+    margin: 20px 20px;
+}
+
+span{
+    margin:0 10px;
+    font-weight: 700;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links img{
+   width: 30px;
+   margin: 0 5px;
+   aspect-ratio: 1/1;
+}
+button{
+    background-color: #F29B28;
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #F29B28;
+    opacity: 0.8;
+}
